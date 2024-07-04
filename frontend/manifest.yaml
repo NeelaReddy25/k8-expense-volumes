@@ -119,7 +119,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: joindevops/frontend:v1.0
+        image: neelareddy/frontend:v1.0.0
         volumeMounts:
         - name: nginx-conf
           mountPath: /etc/nginx/nginx.conf
